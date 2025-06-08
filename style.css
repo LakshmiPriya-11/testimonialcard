@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+.firstdiv{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.c1{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.c1 .msgs{
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.c1 .imgs{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.c1 .imgs img{
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+}
+
+.c2{
+    border: 2px solid black;
+    width: 270px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.c2 .para{
+    margin-bottom: 10px;
+}
+.c2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.c2 .imgs{
+    display: flex;
+    gap: 8px;
+}
+
+.secdiv{
+    margin-top: 20px;
+    margin-left: 23px;
+    display: flex;
+    gap: 40px;  
+}
+.secdiv .first img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.secdiv .sec{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom:20px;
+    background-color: black;
+    color: white;
+}
+
+.secdiv  i,h4,h5{
+    margin-bottom: 10px;
+}
+
+.secdiv i{
+    color: yellow;
+}
+
+.thirddiv{
+    border: 1px solid black;
+    margin-left: 20px;
+    width: 540px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.thirddiv img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+
+.thirddiv .images{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+.thirddiv h4{
+    margin-top: 25px;
+    margin-left: 160px;
+}
+
+
+.img1{
+    opacity: 0.7;
+}
